@@ -1,10 +1,17 @@
+//cycle for from 1 to 100 
 for (let i = 1; i <= 100; i++) {
+    // check if it is divisible by both 3 and 5
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
+        // Print FizzBuzz if both conditions are true
+
+        // Check if i is divisible by 3
     } else if (i % 3 === 0) {
         console.log("Fizz");
+        // Print 'Buzz if it is` divisible by 5
     } else if (i % 5 === 0) {
         console.log("Buzz");
+        // If none of the conditions are true, print the number i itself
     } else {
         console.log(i);
     }
